@@ -1,0 +1,33 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+.NavList{
+    display: flex;
+    gap: 30px;
+
+}
+.NavList li{
+    list-style: none;
+    
+}
+.NavList li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+/* .navImg{
+
+} */
+
+.header{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    
+
+}
+.hero_text{
+}
