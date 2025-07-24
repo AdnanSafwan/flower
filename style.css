@@ -1,3 +1,6 @@
+body{
+    font-family: "Inter", sans-serif;
+}
 .nav{
     display: flex;
     justify-content: space-between;
@@ -26,8 +29,11 @@
     display: flex;
     width: 85%;
     margin: auto;
-    
+    align-items: end;
+    justify-content: space-between;
+
 
 }
 .hero_text{
+    width: 570px;
 }
