@@ -10,10 +10,10 @@
   font-weight: 400;
   font-style: normal;
 }
-.same-color {
+.pcolor {
   color: #8987A1;
 }
-.orange {
+.scolor {
   color: #E95A08;
 }
 .btn {
@@ -35,18 +35,18 @@ body {
   align-items: center;
   padding: 30px 150px;
 }
-.nav-anchor {
+.nav-link {
   list-style: none;
   display: flex;
   gap: 48px;
   margin-left: 400px;
 }
-.nav-anchor li a {
+.nav-link li a {
   text-decoration: none;
   font-size: 16px;
   gap: 50px;
 }
-.nav-anchor li a.home {
+.nav-link li a.home {
   font-weight: bold;
   color: black;
 }
@@ -57,44 +57,44 @@ body {
   font-weight: 500;
   font-size: 16px;
 }
-.banner {
+.bn_sec {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 100px 150px;
 }
-.banner h1 {
+.bn_sec h1 {
   font-weight: bold;
   font-size: 45px;
   margin-top: 30px;
 }
-.banner-content {
+.bn_sec-content {
   display: flex;
 }
-.banner p {
+.bn_sec p {
   margin-top: 20px;
 }
-.banner-text {
+.bn_sec-text {
   margin-top: 150px;
 }
-.banner-img {
+.bn_sec-img {
   margin-top: 40px;
 }
 .grid {
   margin: 100px 150px;
 }
-.plants {
+.flowers {
   text-align: center;
   align-items: center;
   margin: 100px 150px;
 }
-.plants h2 {
+.flowers h2 {
   font-weight: bold;
   font-size: 45px;
   margin-top: 30px;
   font-family: serif;
 }
-.plant-text {
+.flower-text {
   width: 670px;
   margin: auto;
 }
@@ -124,18 +124,18 @@ body {
 .card img {
   width: 100%;
 }
-.plant-lover {
+.flower-lover {
   display: flex;
   justify-content: center;
   align-items: flex-end;
   margin: 150px;
 }
-.plant-lover-image {
+.flower-lover-image {
   position: relative;
   display: inline-block;
   gap: 15px auto;
 }
-.plant-lover-img {
+.flower-lover-img {
   height: 530px;
   width: 500px;
 }
@@ -147,16 +147,16 @@ body {
   height: auto;
   z-index: 1;
 }
-.plant-lover-text {
+.flower-lover-text {
   margin: 25px 0 25px 55px;
 }
-.plant-lover-text li {
+.flower-lover-text li {
   margin-top: 25px;
   margin-left: 25px;
   font-weight: 400;
   font-size: 18px;
 }
-.plant-lover-text h2 {
+.flower-lover-text h2 {
   font-size: 45px;
   font-weight: bold;
   margin-bottom: 60px;
@@ -240,7 +240,7 @@ body {
   align-items: center;
   padding: 65px;
 }
-.join {
+.subsec {
   background-image: url('./assets/news-letter-bg.png');
   width: 100%;
   height: 530px;
@@ -251,19 +251,19 @@ body {
   align-items: center;
   justify-content: center;
 }
-.join-container {
+.subsec-container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.join h3 {
+.subsec h3 {
   color: white;
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 20px;
   font-family: serif;
 }
-.join input {
+.subsec input {
   border: none;
   width: 644px;
   height: 50px;
@@ -272,7 +272,7 @@ body {
   padding: 10px 20px;
   margin-left: 30px;
 }
-.join button {
+.subsec button {
   background: #E95A08;
   border: none;
   width: 186px;
@@ -310,7 +310,7 @@ footer {
   height: 82px;
   margin: 0 224px 16px 0;
 }
-.footer-anchor ul {
+.footer-link ul {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -330,7 +330,7 @@ footer {
     justify-content: space-between;
     padding: 16px 20px;
   }
-  .nav-anchor {
+  .nav-link {
     display: none;
   }
   .cart {
@@ -339,29 +339,29 @@ footer {
   .logo img {
     height: 36px;
   }
-  .banner {
+  .bn_sec {
     margin: 0;
     flex-direction: column;
   }
-  .banner-content {
+  .bn_sec-content {
     flex-direction: column-reverse;
     align-items: flex-start;
     text-align: start;
   }
-  .banner-text {
+  .bn_sec-text {
     margin-top: 16px;
   }
-  .banner-img img {
+  .bn_sec-img img {
     width: 100%;
     height: auto;
   }
   .grid {
     margin: 0;
   }
-  .plants {
+  .flowers {
     margin: 16px;
   }
-  .plant-text {
+  .flower-text {
     margin: auto;
     width: 345px;
   }
@@ -370,18 +370,18 @@ footer {
     margin: 16px;
     gap: 10px;
   }
-  .plant-lover {
+  .flower-lover {
     flex-direction: column;
     margin: 0;
   }
   .trusted-badge {
     display: none;
   }
-  .plant-lover-img {
+  .flower-lover-img {
     width: 100%;
     height: auto;
   }
-  .plant-lover-text {
+  .flower-lover-text {
     margin: 15px;
   }
   .deal-items {
@@ -398,19 +398,19 @@ footer {
     height: auto;
     padding: 30px 20px;
   }
-  .join {
+  .subsec {
     height: auto;
     padding: 40px 0;
     text-align: center;
   }
-  .join h3 {
+  .subsec h3 {
     font-size: 24px;
   }
-  .join input {
+  .subsec input {
     width: 80%;
     margin-left: 0;
   }
-  .join button {
+  .subsec button {
     width: 50%;
   }
   .footer {
@@ -427,7 +427,7 @@ footer {
     margin: 0 auto 16px auto;
     display: block;
   }
-  .footer-anchor ul {
+  .footer-link ul {
     align-items: center;
   }
 }
