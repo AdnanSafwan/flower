@@ -37,3 +37,46 @@ body{
 .hero_text{
     width: 570px;
 }
+.flowerInformation{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+}
+.flowerInformation img{
+    width: 45%;
+}
+.infoDetail{
+    width: 45%;
+    
+
+}
+.social{
+    display: flex;
+    width: 216 px;
+    height: 36px;
+    justify-content: space-between;
+}
+.fff{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2% 7%;
+}
+.lists ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+div ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    color: #8987A1;
+}
+.main2{
+    background-image: url(assets/news-letter-bg.png);
+    width: 1440px;
+    height: 533px;
+
+}
+.main2{
+    padding: 3% 7%;
+}
